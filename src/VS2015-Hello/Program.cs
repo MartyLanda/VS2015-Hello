@@ -9,7 +9,9 @@ namespace VS2015_Hello
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.Write("Please Enter Your Name: ");
+            string name = Console.ReadLine();
+            Console.WriteLine("Hello " + name + ". It's nice to meet you!");
             Console.ReadLine();
         }
     }
