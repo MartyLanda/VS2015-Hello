@@ -9,6 +9,8 @@ namespace VS2015_Hello
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("Hello World!");
+            Console.ReadLine();
         }
     }
 }
